@@ -1,0 +1,8 @@
+flask
+transformers
+torch
+flask-cors
+accelerate
+bitsandbytes
+sentencepiece
+datasets

@@ -1,0 +1,24 @@
+[
+  {
+    "conversation_id": 1,
+    "turns": [
+      {
+        "intent": "question",
+        "sentiment": "neutral",
+        "speaker": "customer",
+        "text": "Hello AI, can you help me?"
+      }
+    ]
+  },
+  {
+    "conversation_id": 2,
+    "turns": [
+      {
+        "intent": "question",
+        "sentiment": "neutral",
+        "speaker": "customer",
+        "text": "How can I reset my password?"
+      }
+    ]
+  }
+]
