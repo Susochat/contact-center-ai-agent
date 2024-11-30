@@ -1,58 +1,44 @@
-from transformers import DistilGPT2Tokenizer
-import pandas as pd
-from torch.utils.data import Dataset
+import json
 
-# Load the DistilGPT2 tokenizer
-tokenizer = DistilGPT2Tokenizer.from_pretrained('distilgpt2')
+# Load the dataset
+file_path = "../data/contact_center_actionable_dataset.json"  # Replace with your dataset file path
+with open(file_path, "r", encoding="utf-8") as f:
+    data = json.load(f)
 
-# Ensure padding token is defined since GPT models typically don't have one by default
-tokenizer.pad_token = tokenizer.eos_token
+# Step 1: Remove duplicate rows
+unique_data = []
+seen_conversations = set()
 
-# Load your custom dataset (replace with the actual path)
-data_path = "C:\\Users\\susab\\OneDrive\\Desktop\\CC-AI-Agent\\contact-center-ai-agent\\backend\\data\\contact_center_synthetic_dataset.json"
-df = pd.read_json(data_path)
+for entry in data:
+    conversation_tuple = tuple(
+        (turn["role"], turn["text"].strip().lower()) for turn in entry["conversation"]
+    )
+    if conversation_tuple not in seen_conversations:
+        seen_conversations.add(conversation_tuple)
+        unique_data.append(entry)
 
-# Create a Dataset class to tokenize inputs and outputs
-class ContactCenterDataset(Dataset):
-    def __init__(self, data, tokenizer, max_length=512):
-        self.data = data
-        self.tokenizer = tokenizer
-        self.max_length = max_length
-
-    def __len__(self):
-        return len(self.data)
-
-    def __getitem__(self, idx):
-        # Input and output pair
-        input_text = self.data.iloc[idx]["input"]
-        output_text = self.data.iloc[idx]["output"]
-
-        # Tokenize input and output
-        input_encoding = self.tokenizer.encode_plus(
-            input_text,
-            max_length=self.max_length,
-            padding="max_length",
-            truncation=True,
-            return_tensors="pt"
+# Step 2: Check for missing values and filter incomplete entries
+cleaned_data = []
+for entry in unique_data:
+    if (
+        "category" in entry
+        and "sentiment" in entry
+        and "conversation" in entry
+        and all(
+            "role" in turn and "text" in turn and turn["text"].strip()
+            for turn in entry["conversation"]
         )
-        
-        output_encoding = self.tokenizer.encode_plus(
-            output_text,
-            max_length=self.max_length,
-            padding="max_length",
-            truncation=True,
-            return_tensors="pt"
-        )
+    ):
+        entry["category"] = entry["category"].strip()
+        entry["sentiment"] = entry["sentiment"].strip()
+        # Normalize text
+        for turn in entry["conversation"]:
+            turn["text"] = turn["text"].strip().lower()
+        cleaned_data.append(entry)
 
-        # Flatten the tensors to avoid extra dimension
-        return {
-            'input_ids': input_encoding['input_ids'].squeeze(0),
-            'attention_mask': input_encoding['attention_mask'].squeeze(0),
-            'labels': output_encoding['input_ids'].squeeze(0)
-        }
+# Save the cleaned dataset
+output_path = "../data/contact_center_processed_dataset.json"
+with open(output_path, "w", encoding="utf-8") as f:
+    json.dump(cleaned_data, f, indent=4, ensure_ascii=False)
 
-# Create the dataset and dataloader
-dataset = ContactCenterDataset(df, tokenizer)
-
-# Check if everything works
-print(dataset[0])  # Print the first example to verify
+print(f"Cleaned dataset saved to {output_path}")

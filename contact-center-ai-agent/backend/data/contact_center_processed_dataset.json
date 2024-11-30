@@ -1,0 +1,1850 @@
+[
+    {
+        "category": "Billing Issue",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i need assistance with billing issue?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: we will waive the late fee as a courtesy."
+            }
+        ]
+    },
+    {
+        "category": "Refund Request",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: can you help me with refund request?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: the refund has been processed to your original payment method."
+            }
+        ]
+    },
+    {
+        "category": "Service Cancellation",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i am having trouble with service cancellation?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: the cancellation will be effective from the end of this billing cycle."
+            }
+        ]
+    },
+    {
+        "category": "Refund Request",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i am having trouble with refund request?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: please allow 5-7 business days for the refund to reflect."
+            }
+        ]
+    },
+    {
+        "category": "Order Inquiry",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i am having trouble with order inquiry?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: your order is currently being processed and will be delivered by [date]."
+            }
+        ]
+    },
+    {
+        "category": "Troubleshooting",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i am having trouble with troubleshooting?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: let me guide you through resetting the system settings."
+            }
+        ]
+    },
+    {
+        "category": "Technical Support",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: can you help me with technical support?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: i have scheduled a technician visit for you."
+            }
+        ]
+    },
+    {
+        "category": "Feedback/Complaint",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i need assistance with feedback/complaint?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: we deeply regret the inconvenience caused. your feedback has been noted."
+            }
+        ]
+    },
+    {
+        "category": "Upgrade/Downgrade Service",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: can you help me with upgrade/downgrade service?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: your service has been upgraded successfully."
+            }
+        ]
+    },
+    {
+        "category": "Refund Request",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: why is refund request?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: we are escalating your refund request to the concerned department."
+            }
+        ]
+    },
+    {
+        "category": "Upgrade/Downgrade Service",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: why is upgrade/downgrade service?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: the downgrade will take effect from the next billing cycle."
+            }
+        ]
+    },
+    {
+        "category": "Service Cancellation",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i am having trouble with service cancellation?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: your service cancellation request has been submitted."
+            }
+        ]
+    },
+    {
+        "category": "Refund Request",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: why is refund request?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: the refund has been processed to your original payment method."
+            }
+        ]
+    },
+    {
+        "category": "Feedback/Complaint",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i am having trouble with feedback/complaint?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: we’re forwarding your complaint to the quality assurance team."
+            }
+        ]
+    },
+    {
+        "category": "Order Inquiry",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: why is order inquiry?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: your order is currently being processed and will be delivered by [date]."
+            }
+        ]
+    },
+    {
+        "category": "Upgrade/Downgrade Service",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i am having trouble with upgrade/downgrade service?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: would you like to review the benefits of the upgraded plan?"
+            }
+        ]
+    },
+    {
+        "category": "Account Management",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i am having trouble with account management?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: your account details have been updated successfully."
+            }
+        ]
+    },
+    {
+        "category": "Order Inquiry",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i need assistance with order inquiry?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: would you like to add a gift wrap to this order?"
+            }
+        ]
+    },
+    {
+        "category": "Technical Support",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i am having trouble with technical support?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: follow the steps sent to your email to reset the system."
+            }
+        ]
+    },
+    {
+        "category": "General Information",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i need assistance with general information?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: you can find the detailed user manual on our website."
+            }
+        ]
+    },
+    {
+        "category": "Service Cancellation",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: why is service cancellation?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: your service cancellation request has been submitted."
+            }
+        ]
+    },
+    {
+        "category": "General Information",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i am having trouble with general information?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: let me connect you to the department handling this query."
+            }
+        ]
+    },
+    {
+        "category": "Order Inquiry",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i need assistance with order inquiry?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: i see that your order was shipped yesterday. tracking id: xyz123."
+            }
+        ]
+    },
+    {
+        "category": "Technical Support",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i am having trouble with technical support?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: i have scheduled a technician visit for you."
+            }
+        ]
+    },
+    {
+        "category": "General Information",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: can you help me with general information?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: you can find the detailed user manual on our website."
+            }
+        ]
+    },
+    {
+        "category": "Upgrade/Downgrade Service",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: can you help me with upgrade/downgrade service?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: would you like to review the benefits of the upgraded plan?"
+            }
+        ]
+    },
+    {
+        "category": "Order Inquiry",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: can you help me with order inquiry?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: would you like to add a gift wrap to this order?"
+            }
+        ]
+    },
+    {
+        "category": "Service Cancellation",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: why is service cancellation?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: we’d like to offer you a discount to reconsider canceling."
+            }
+        ]
+    },
+    {
+        "category": "Technical Support",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i need assistance with technical support?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: i have scheduled a technician visit for you."
+            }
+        ]
+    },
+    {
+        "category": "Troubleshooting",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i need assistance with troubleshooting?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: let me guide you through resetting the system settings."
+            }
+        ]
+    },
+    {
+        "category": "Order Inquiry",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i need assistance with order inquiry?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: your order is currently being processed and will be delivered by [date]."
+            }
+        ]
+    },
+    {
+        "category": "Account Management",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i need assistance with account management?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: i have sent you a password reset link."
+            }
+        ]
+    },
+    {
+        "category": "Billing Issue",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: can you help me with billing issue?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: please provide your account number to verify the charges."
+            }
+        ]
+    },
+    {
+        "category": "Refund Request",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i need assistance with refund request?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: please allow 5-7 business days for the refund to reflect."
+            }
+        ]
+    },
+    {
+        "category": "Troubleshooting",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: why is troubleshooting?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: check if all cables are connected properly."
+            }
+        ]
+    },
+    {
+        "category": "Billing Issue",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: why is billing issue?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: i have initiated a review of your last bill."
+            }
+        ]
+    },
+    {
+        "category": "Upgrade/Downgrade Service",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i need assistance with upgrade/downgrade service?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: would you like to review the benefits of the upgraded plan?"
+            }
+        ]
+    },
+    {
+        "category": "Account Management",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: can you help me with account management?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: let me help you change your account preferences."
+            }
+        ]
+    },
+    {
+        "category": "Feedback/Complaint",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i am having trouble with feedback/complaint?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: we deeply regret the inconvenience caused. your feedback has been noted."
+            }
+        ]
+    },
+    {
+        "category": "Billing Issue",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: why is billing issue?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: we will waive the late fee as a courtesy."
+            }
+        ]
+    },
+    {
+        "category": "General Information",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: why is general information?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: you can find the detailed user manual on our website."
+            }
+        ]
+    },
+    {
+        "category": "Account Management",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: why is account management?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: your account details have been updated successfully."
+            }
+        ]
+    },
+    {
+        "category": "Billing Issue",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i need assistance with billing issue?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: i have initiated a review of your last bill."
+            }
+        ]
+    },
+    {
+        "category": "Account Management",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: can you help me with account management?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: i have sent you a password reset link."
+            }
+        ]
+    },
+    {
+        "category": "Service Cancellation",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i need assistance with service cancellation?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: we’d like to offer you a discount to reconsider canceling."
+            }
+        ]
+    },
+    {
+        "category": "Order Inquiry",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: why is order inquiry?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: i see that your order was shipped yesterday. tracking id: xyz123."
+            }
+        ]
+    },
+    {
+        "category": "Feedback/Complaint",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: can you help me with feedback/complaint?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: we’re forwarding your complaint to the quality assurance team."
+            }
+        ]
+    },
+    {
+        "category": "Troubleshooting",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: can you help me with troubleshooting?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: check if all cables are connected properly."
+            }
+        ]
+    },
+    {
+        "category": "Feedback/Complaint",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: can you help me with feedback/complaint?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: we deeply regret the inconvenience caused. your feedback has been noted."
+            }
+        ]
+    },
+    {
+        "category": "General Information",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: why is general information?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: our working hours are 9 am to 6 pm, monday to friday."
+            }
+        ]
+    },
+    {
+        "category": "Service Cancellation",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i need assistance with service cancellation?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: the cancellation will be effective from the end of this billing cycle."
+            }
+        ]
+    },
+    {
+        "category": "Service Cancellation",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i am having trouble with service cancellation?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: we’d like to offer you a discount to reconsider canceling."
+            }
+        ]
+    },
+    {
+        "category": "Upgrade/Downgrade Service",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: why is upgrade/downgrade service?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: your service has been upgraded successfully."
+            }
+        ]
+    },
+    {
+        "category": "Account Management",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i am having trouble with account management?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: i have sent you a password reset link."
+            }
+        ]
+    },
+    {
+        "category": "Technical Support",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: can you help me with technical support?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: follow the steps sent to your email to reset the system."
+            }
+        ]
+    },
+    {
+        "category": "Refund Request",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i need assistance with refund request?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: the refund has been processed to your original payment method."
+            }
+        ]
+    },
+    {
+        "category": "Troubleshooting",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: can you help me with troubleshooting?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: let me guide you through resetting the system settings."
+            }
+        ]
+    },
+    {
+        "category": "Billing Issue",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i am having trouble with billing issue?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: please provide your account number to verify the charges."
+            }
+        ]
+    },
+    {
+        "category": "Account Management",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i need assistance with account management?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: your account details have been updated successfully."
+            }
+        ]
+    },
+    {
+        "category": "Account Management",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i am having trouble with account management?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: let me help you change your account preferences."
+            }
+        ]
+    },
+    {
+        "category": "General Information",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: can you help me with general information?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: let me connect you to the department handling this query."
+            }
+        ]
+    },
+    {
+        "category": "Account Management",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i need assistance with account management?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: let me help you change your account preferences."
+            }
+        ]
+    },
+    {
+        "category": "Feedback/Complaint",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: why is feedback/complaint?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: thank you for the feedback. we strive to improve our services."
+            }
+        ]
+    },
+    {
+        "category": "Troubleshooting",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: can you help me with troubleshooting?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: i have emailed you the troubleshooting steps for your device."
+            }
+        ]
+    },
+    {
+        "category": "Upgrade/Downgrade Service",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: why is upgrade/downgrade service?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: would you like to review the benefits of the upgraded plan?"
+            }
+        ]
+    },
+    {
+        "category": "General Information",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i am having trouble with general information?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: our working hours are 9 am to 6 pm, monday to friday."
+            }
+        ]
+    },
+    {
+        "category": "Account Management",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: why is account management?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: let me help you change your account preferences."
+            }
+        ]
+    },
+    {
+        "category": "Technical Support",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i need assistance with technical support?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: follow the steps sent to your email to reset the system."
+            }
+        ]
+    },
+    {
+        "category": "Service Cancellation",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: can you help me with service cancellation?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: we’d like to offer you a discount to reconsider canceling."
+            }
+        ]
+    },
+    {
+        "category": "Refund Request",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i need assistance with refund request?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: we are escalating your refund request to the concerned department."
+            }
+        ]
+    },
+    {
+        "category": "Order Inquiry",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i am having trouble with order inquiry?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: would you like to add a gift wrap to this order?"
+            }
+        ]
+    },
+    {
+        "category": "Troubleshooting",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i am having trouble with troubleshooting?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: i have emailed you the troubleshooting steps for your device."
+            }
+        ]
+    },
+    {
+        "category": "Technical Support",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: why is technical support?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: i have scheduled a technician visit for you."
+            }
+        ]
+    },
+    {
+        "category": "Order Inquiry",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: can you help me with order inquiry?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: your order is currently being processed and will be delivered by [date]."
+            }
+        ]
+    },
+    {
+        "category": "Account Management",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: why is account management?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: i have sent you a password reset link."
+            }
+        ]
+    },
+    {
+        "category": "Billing Issue",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i am having trouble with billing issue?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: we will waive the late fee as a courtesy."
+            }
+        ]
+    },
+    {
+        "category": "Upgrade/Downgrade Service",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i am having trouble with upgrade/downgrade service?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: your service has been upgraded successfully."
+            }
+        ]
+    },
+    {
+        "category": "Order Inquiry",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: why is order inquiry?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: would you like to add a gift wrap to this order?"
+            }
+        ]
+    },
+    {
+        "category": "Technical Support",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i need assistance with technical support?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: try restarting your device. this resolves most connectivity issues."
+            }
+        ]
+    },
+    {
+        "category": "Troubleshooting",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i need assistance with troubleshooting?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: check if all cables are connected properly."
+            }
+        ]
+    },
+    {
+        "category": "Feedback/Complaint",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i need assistance with feedback/complaint?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: thank you for the feedback. we strive to improve our services."
+            }
+        ]
+    },
+    {
+        "category": "Upgrade/Downgrade Service",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: can you help me with upgrade/downgrade service?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: the downgrade will take effect from the next billing cycle."
+            }
+        ]
+    },
+    {
+        "category": "Troubleshooting",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i need assistance with troubleshooting?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: i have emailed you the troubleshooting steps for your device."
+            }
+        ]
+    },
+    {
+        "category": "Order Inquiry",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i am having trouble with order inquiry?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: i see that your order was shipped yesterday. tracking id: xyz123."
+            }
+        ]
+    },
+    {
+        "category": "Feedback/Complaint",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i am having trouble with feedback/complaint?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: thank you for the feedback. we strive to improve our services."
+            }
+        ]
+    },
+    {
+        "category": "Service Cancellation",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: why is service cancellation?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: the cancellation will be effective from the end of this billing cycle."
+            }
+        ]
+    },
+    {
+        "category": "Refund Request",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i am having trouble with refund request?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: we are escalating your refund request to the concerned department."
+            }
+        ]
+    },
+    {
+        "category": "Service Cancellation",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: can you help me with service cancellation?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: the cancellation will be effective from the end of this billing cycle."
+            }
+        ]
+    },
+    {
+        "category": "Upgrade/Downgrade Service",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i am having trouble with upgrade/downgrade service?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: the downgrade will take effect from the next billing cycle."
+            }
+        ]
+    },
+    {
+        "category": "General Information",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: why is general information?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: let me connect you to the department handling this query."
+            }
+        ]
+    },
+    {
+        "category": "General Information",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i am having trouble with general information?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: you can find the detailed user manual on our website."
+            }
+        ]
+    },
+    {
+        "category": "Refund Request",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: can you help me with refund request?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: we are escalating your refund request to the concerned department."
+            }
+        ]
+    },
+    {
+        "category": "Feedback/Complaint",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: why is feedback/complaint?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: we’re forwarding your complaint to the quality assurance team."
+            }
+        ]
+    },
+    {
+        "category": "Order Inquiry",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: can you help me with order inquiry?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: i see that your order was shipped yesterday. tracking id: xyz123."
+            }
+        ]
+    },
+    {
+        "category": "Account Management",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: can you help me with account management?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: your account details have been updated successfully."
+            }
+        ]
+    },
+    {
+        "category": "Technical Support",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: can you help me with technical support?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: try restarting your device. this resolves most connectivity issues."
+            }
+        ]
+    },
+    {
+        "category": "Feedback/Complaint",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: can you help me with feedback/complaint?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: thank you for the feedback. we strive to improve our services."
+            }
+        ]
+    },
+    {
+        "category": "Refund Request",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i am having trouble with refund request?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: the refund has been processed to your original payment method."
+            }
+        ]
+    },
+    {
+        "category": "General Information",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: can you help me with general information?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: our working hours are 9 am to 6 pm, monday to friday."
+            }
+        ]
+    },
+    {
+        "category": "Feedback/Complaint",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: why is feedback/complaint?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: we deeply regret the inconvenience caused. your feedback has been noted."
+            }
+        ]
+    },
+    {
+        "category": "Billing Issue",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: can you help me with billing issue?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: we will waive the late fee as a courtesy."
+            }
+        ]
+    },
+    {
+        "category": "Refund Request",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: can you help me with refund request?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: please allow 5-7 business days for the refund to reflect."
+            }
+        ]
+    },
+    {
+        "category": "Billing Issue",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: why is billing issue?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: please provide your account number to verify the charges."
+            }
+        ]
+    },
+    {
+        "category": "Technical Support",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: why is technical support?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: try restarting your device. this resolves most connectivity issues."
+            }
+        ]
+    },
+    {
+        "category": "Feedback/Complaint",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i need assistance with feedback/complaint?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: we’re forwarding your complaint to the quality assurance team."
+            }
+        ]
+    },
+    {
+        "category": "Billing Issue",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: can you help me with billing issue?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: i have initiated a review of your last bill."
+            }
+        ]
+    },
+    {
+        "category": "Service Cancellation",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i need assistance with service cancellation?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: your service cancellation request has been submitted."
+            }
+        ]
+    },
+    {
+        "category": "Service Cancellation",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: can you help me with service cancellation?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: your service cancellation request has been submitted."
+            }
+        ]
+    },
+    {
+        "category": "General Information",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i need assistance with general information?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: let me connect you to the department handling this query."
+            }
+        ]
+    },
+    {
+        "category": "Technical Support",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i am having trouble with technical support?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: try restarting your device. this resolves most connectivity issues."
+            }
+        ]
+    },
+    {
+        "category": "Billing Issue",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i need assistance with billing issue?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: please provide your account number to verify the charges."
+            }
+        ]
+    },
+    {
+        "category": "Upgrade/Downgrade Service",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i need assistance with upgrade/downgrade service?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: your service has been upgraded successfully."
+            }
+        ]
+    },
+    {
+        "category": "Troubleshooting",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: why is troubleshooting?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: i have emailed you the troubleshooting steps for your device."
+            }
+        ]
+    },
+    {
+        "category": "Upgrade/Downgrade Service",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i need assistance with upgrade/downgrade service?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: the downgrade will take effect from the next billing cycle."
+            }
+        ]
+    },
+    {
+        "category": "Technical Support",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: why is technical support?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: follow the steps sent to your email to reset the system."
+            }
+        ]
+    },
+    {
+        "category": "Billing Issue",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i am having trouble with billing issue?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: i have initiated a review of your last bill."
+            }
+        ]
+    },
+    {
+        "category": "Troubleshooting",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: why is troubleshooting?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: let me guide you through resetting the system settings."
+            }
+        ]
+    },
+    {
+        "category": "Troubleshooting",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i am having trouble with troubleshooting?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: check if all cables are connected properly."
+            }
+        ]
+    },
+    {
+        "category": "General Information",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: i need assistance with general information?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: our working hours are 9 am to 6 pm, monday to friday."
+            }
+        ]
+    },
+    {
+        "category": "Refund Request",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: why is refund request?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: please allow 5-7 business days for the refund to reflect."
+            }
+        ]
+    },
+    {
+        "category": "Generic",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: what is the capital of france?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: i can help with that!"
+            }
+        ]
+    },
+    {
+        "category": "Generic",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: how do i cook pasta?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: here is the information you requested."
+            }
+        ]
+    },
+    {
+        "category": "Generic",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: how do i cook pasta?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: let me find that for you."
+            }
+        ]
+    },
+    {
+        "category": "Generic",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: what is the weather today?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: let me find that for you."
+            }
+        ]
+    },
+    {
+        "category": "Generic",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: what is the weather today?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: i can help with that!"
+            }
+        ]
+    },
+    {
+        "category": "Generic",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: how do i cook pasta?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: i can help with that!"
+            }
+        ]
+    },
+    {
+        "category": "Generic",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: tell me a joke."
+            },
+            {
+                "role": "agent",
+                "text": "agent: let me find that for you."
+            }
+        ]
+    },
+    {
+        "category": "Generic",
+        "sentiment": "Neutral",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: tell me a joke."
+            },
+            {
+                "role": "agent",
+                "text": "agent: here is the information you requested."
+            }
+        ]
+    },
+    {
+        "category": "Generic",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: what is the weather today?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: here is the information you requested."
+            }
+        ]
+    },
+    {
+        "category": "Generic",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: what is the capital of france?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: here is the information you requested."
+            }
+        ]
+    },
+    {
+        "category": "Generic",
+        "sentiment": "Negative",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: what is the capital of france?"
+            },
+            {
+                "role": "agent",
+                "text": "agent: let me find that for you."
+            }
+        ]
+    },
+    {
+        "category": "Generic",
+        "sentiment": "Positive",
+        "conversation": [
+            {
+                "role": "customer",
+                "text": "customer: tell me a joke."
+            },
+            {
+                "role": "agent",
+                "text": "agent: i can help with that!"
+            }
+        ]
+    }
+]
