@@ -8,4 +8,5 @@ sentencepiece
 datasets
 pandas
 matplotlib
-sklearn
+scikit-learn
+numpy==1.24.3
