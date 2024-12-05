@@ -10,3 +10,6 @@ pandas
 matplotlib
 scikit-learn
 numpy==1.24.3
+fastapi
+uvicorn
+openai
