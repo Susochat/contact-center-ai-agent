@@ -1,6 +1,10 @@
 
 ------------------------ACTIVATE VIRTUAL ENV----------------
-activate venv
+source /Users/susochat/CC-AI-Agent/contact-center-ai-agent/venv/bin/activate
+------------------------RUN BACKEND----------------
+uvicorn azure_openAI:app --reload 
+------------------------RUN FRONTEND----------------
+npm start
 --------------------------PROJECT STRUCTURE----------------------
 
 contact-center-ai-agent/
